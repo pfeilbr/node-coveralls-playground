@@ -25,3 +25,5 @@ To learn and experiment with [coveralls](https://coveralls.io/) test coverage se
 ```
 $ istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
 ```
+
+> You can view the raw coverage output in the `./coverage` directory.
